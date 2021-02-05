@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>Periodic Table</h1>
+    <p>Hi Amey</p>
     <div class="row">
       <div class="input-field col s12">
         <input v-model="query" id="query" type="text" />
