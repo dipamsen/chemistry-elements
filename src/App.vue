@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Element Explorer</h1>
-    <form @submit.prevent="submit">
+    <form autocomplete="off" @submit.prevent="submit">
       <div class="row">
         <div class="input-field col s12">
           <input v-model="query" id="query" type="text" />
